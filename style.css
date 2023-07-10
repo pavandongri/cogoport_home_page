@@ -1,0 +1,1838 @@
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -0.5px;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+  
+.notification{
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+    grid-template-rows: 50px;
+    background-color: #ee3425;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height : 40px;
+}
+
+.notificationContent {
+    margin-left : 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.notificationCross{
+    margin-left : 70%;
+    margin-bottom: 5px;;
+}
+
+.notificationContent .title{
+    margin-left : 10px;
+    color : white;
+}
+
+.notificationContent a{
+    margin-left : 10px;
+    color : #fbdc00;
+}
+
+.notificationCross{
+    cursor: pointer;
+}
+
+
+/*============================  NABAR =================================================*/
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+
+.nav{
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    grid-template-rows: 50px;
+    text-align: center;
+    background-color: #fbdc00;
+    align-items: center;
+}
+
+.stick1{
+    display: grid;
+    grid-template-columns: 0.2fr 0.7fr;
+    grid-template-rows: 50px;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* margin-right : -2vw; */
+}
+
+
+.navMenu svg{
+    height : 30px;
+    width : 30px;
+}
+.navMenu{
+    display: none;
+}
+
+
+.navLogo{
+    padding-left : 3vw;
+}
+
+.nav .navList ul li a{
+    display: grid;
+    grid-template-columns: 1fr 0.0001fr;
+    cursor: pointer;
+    font-size : 1vw;
+}
+.nav .navList ul li :hover{
+    color : #ee3425
+}
+
+.nav .navList ul li a svg{
+    height : 0.7vw;
+    width : 0.7w;
+    margin-top : 3.5px;
+    margin-left : -2px;
+}
+
+
+.nav .navList ul {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: auto;
+    column-gap: 2.5vw;
+    margin-left : -2vw;
+
+}
+
+.navList{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 90%;
+    margin-left : 7vw;
+}
+
+.navRight{
+    display : grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    align-items: center;
+}
+
+.navSmile svg{
+    width : 1.6vw;
+    height : 1.6vw;
+}
+.navLogin {
+    margin-left : 0.2vw
+}
+
+.navSignUp{
+    margin-left : 1.5vw;
+    height : 1vw;
+}
+
+.navRight{
+    margin-left : 7vw;
+    /* justify-content: end; */
+}
+
+.navSignUp{
+    background-color: #ee3425;
+    color : white;
+    width : 6em;;
+    height : 1.7em;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* =====================  GROW ================================== */
+
+
+
+
+
+.grow{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 380px;
+    background-color: #fbdc00;
+    padding : 10px 10vw;
+}
+
+.growLeft{
+    padding-top : 4.5vw;
+}
+
+.growLeft h1{
+    font-size : 2.6vw;
+}
+
+.growLeft p{
+    font-family: 'PT Sans', sans-serif;
+    font-size : 1vw;
+    line-height: 1.5vw;
+    margin-top : -1vw;
+    font-weight: lighter;
+    letter-spacing: 0vw;
+}
+
+.growInputDiv{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.6fr 0.2fr;
+    grid-template-rows: 40px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    width : 25vw;
+    /* height : vw; */
+    padding-right : 2px;
+    margin-top : 5px;
+}
+
+.growWatsapp{
+    height : 1.2vw; 
+    width : 1.2vw;
+    /* border : 2px solid black; */
+}
+.growCodeHead{
+    /* display: flex;
+    border : 2px solid black;
+    justify-content: start;
+    width : 2vw; */
+}
+
+ .growCode{
+    height : 2vw; 
+    width : 2.6vw;
+    border :none;
+    font-size : 1vw;
+    margin-left : -0.5vw;
+    /* border : 2px solid black; */
+}
+
+.growDownCaret{
+    height : 0.7vw; 
+    width : 0.7vw; 
+    
+    margin-top : 3vw;  
+    margin-left : -0vw; 
+    /* border : 2px solid blue; */
+}
+
+
+.growMobile{
+    height : 2vw;
+    width: 10vw;
+    border : none;
+    /* border : 2px solid black;  */
+    font-size : 1vw;
+}
+
+
+.growBtn{
+    width : 6vw;
+    height : 2vw;
+    border-radius: 20px;
+    background-color: rgb(47, 209, 47);
+    border : none;
+    color : white;
+    font-weight: bold;
+    font-size : 0.8vw;
+}
+
+.growRight {
+    height : 101%;
+    width: 100%;
+    justify-content: stretch;
+}  
+
+.growRight video{
+    position: static;
+    height: 108%;
+    width : 100%;
+    justify-content: stretch;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*========================== Cream =============================================*/
+
+
+
+
+
+
+
+.cream{
+    background-color: #fffef2;
+}
+
+
+.creamCount{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 290px;
+    background-color: white;
+    padding : 50px 0 0% 10%;
+    
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius : 30%;
+    /* padding-top : 50px; */
+}
+
+.creamCount h1{
+    font-size : 2.5rem;
+    color : #ee3425;
+}
+
+.creamSupply{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px;
+    justify-content: center;
+    text-align : left;
+    align-items: center;
+    padding : 5px 10%;
+}
+
+.creamSupplyLeft {
+    padding : 15vw 3vw;
+}
+.creamSupplyLeft h1{
+    font-size: 2.2rem;
+}
+
+.creamSupplyLeft p{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.creamSupplyRight{
+    padding-left : 10%;
+}
+
+.creamSupplyRight img{
+    width : 35vw;
+    height : 20vw
+}
+
+
+
+
+
+/* ===================================== Products ============================================== */
+
+
+
+
+
+
+.product{
+    padding : 10px 8%;
+    background-color: #fffef2;
+    padding-bottom : 10%;
+}
+
+.productTitle{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.productContainer{
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    grid-template-rows: 160px;
+    margin-top : 50px;
+}
+.productCard svg, h4, h6{
+    font-size : 1vw;
+    line-height: 1vw;
+}
+.productCard h4, h6{
+    margin-top : 1vw;
+}
+
+.productLeft{
+    text-align: start;
+    align-items: center;
+    padding-top : 10%;
+    padding-left : 16%;
+    font-size : 1.5rem;
+    font-weight : bolder;
+    /* border : 2px solid black; */
+
+}
+.productRight{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    padding-left : 5%;
+}
+
+.productCard{
+    height : 13vw; 
+    width : 13vw;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    /* border : 2px solid black;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+    background-color: white;
+    cursor: pointer;
+}
+.productRightItem{
+    /* border : 2px solid black;  */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+}
+
+.productRightItem :hover{
+    border : 2px solid #ee3425;
+}
+
+.productCard h6{
+    color : #ee3425;
+    font-size : 1em;
+}
+
+
+
+
+/* =============================== Marquee ======================================== */ 
+
+
+.marqTitle{
+    /* border : 2px solid black; */
+    text-align: center;
+    margin-top : 40px;
+    font-size: 15px;
+
+}
+
+.marqImage{
+    height : 80px;
+    width : 150px;
+    margin-left : 100px;
+}
+
+.marq marquee{
+    height : 180px;
+    align-items: center;
+    /* padding-top : 5%; */
+}
+
+
+
+
+
+/* =============================== GET STARTED ======================================== */ 
+
+
+
+.getStarted{
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+    grid-template-rows : 130px;
+    background-color: #fbdc00;
+}
+
+.getStartedLeft{
+    align-items: center;
+    margin-left : 15%;
+    margin-top : 3%;
+}
+
+.getStartedRight{
+    background-color: #fbdc00;
+}
+
+
+.getStartedBtn{
+    background-color: #ee3425;
+    color : white;
+    display: flex;
+    align-items: center;
+    margin-top : 15%;
+    height : 40px;
+    border-radius : 5px;
+    border: none;
+}
+
+
+
+/*======================== How it Working======================================*/
+
+
+.workTitle{
+    margin-top : 4%;
+    text-align: center;
+    font-size : 30px;
+}
+.workBtn{
+    /* border : 2px solid black; */
+    text-align: center;
+}
+.workBtnLeft{
+    height : 40px;
+    width : 200px;
+    border : none;
+    background-color:#fbdc00;
+    border-radius: 20px
+}
+
+.workBtnRight{
+    height : 40px;
+    width : 200px;
+    border : none;
+    background-color:rgb(194, 191, 191);
+    border-radius: 20px;
+    margin-left : 60px
+}
+
+/*..............*/
+
+.workBanner{
+    position: relative;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1r3 1r3; */
+    /* border : 2px solid black;  */
+    padding : 5% 10%;
+    background-image: url('./images/laptop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 44%;
+    
+}
+
+.workBanner.mobile{
+    display: none;
+}
+
+.workCard{
+    width : 18vw;
+    height : 18vw;
+    /* border : 2px solid black; */
+    padding : 10px 0px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.workBannerTopRight{
+    position : absolute;
+    top : 9.5%;
+    right :10%;
+}
+.workBannerBottomRight{
+    position : absolute;
+    bottom : 10%;
+    right : 10%;
+}
+
+.workBannerBottomLeft{
+    margin-top : 7%
+}
+
+.sNumber{
+    margin-left : 25px;
+    /* border : 2px solid black; */
+    height : 2.5vw;
+    color : #ee3425
+}
+
+.sHeading{
+    display: flex;
+    height : 2.6vw;
+    margin-left : 20px;
+    /* border : 2px solid black; */
+    /* padding-bottom : 10px */
+    margin-top : -15px;
+}
+
+.sHeading h2{
+    font-size : 1.4vw;
+}
+
+.sList{
+    padding-right : 2vw;
+    /* border : 2px solid black; */
+}
+
+.sList ul{
+    list-style-type: disc;
+    font-weight:lighter;
+    letter-spacing: 2.5;
+    line-height: 1.5vw;
+    padding-top : 10px;
+}
+.sList ul li{
+    font-size: 1vw;
+}
+
+
+.sHeading svg{
+    /* padding-bottom : 10px */
+    height : 2.5vw;
+    width : 2.5vw;
+    padding-top : 10px
+}
+.sHeading h2{
+    margin-left : 5px
+}
+
+.workBannerMobile{
+    /* border : 2px solid black; */
+    padding : 10px ;
+    display: none;
+}
+.workCardMobile{
+    /* border : 2px solid black; */
+    background-color: white;
+    padding : 15px 10px;
+    border-radius: 10px;
+    margin-top : 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height : 220px;
+    padding-bottom: 2%;
+    margin-bottom: 5%;;
+}
+
+.wsNumber{
+    /* border : 2px solid black; */
+    color : #ee3425;
+    padding : 0;
+    height :  40px;
+    font-size : 1.8vw;
+    margin-left : 2vw;
+}
+
+.wsHeading{
+    display: flex;
+    align-items: center;
+    /* border : 2px solid black; */
+    height :  40px;
+    margin-top : 5px;
+    font-size : 2.5vw;
+}
+
+
+.wsList ul li{
+    font-weight: 1;
+    list-style-type: disc;
+    font-size : 2.2vw;
+    letter-spacing: 0px;
+    line-height: 3vw;
+    /* border : 2px solid black; */
+}
+
+.wsList li{
+    font-weight: 1;
+    list-style-type: disc;
+    font-size : 16px;
+    letter-spacing: -1px;
+    line-height: 25px;
+}
+
+.wsHeading svg{
+    /* border : 2px solid black; */
+}
+
+.wsHeading h2{
+    margin-left : 10px;
+    /* border : 2px solid black; */
+}
+
+
+.workMobileLaptop{
+    /* justify-content: center; */
+    text-align: center;
+    
+}
+.workMobileLaptop img{
+    height : 30vw;
+    width : 50vw;
+}
+
+
+
+
+
+/*========================== Industries ====================================*/
+
+
+
+.industries{
+    background-color: #fffef2;
+    padding : 2% 0;
+}
+
+.industries_title{
+    margin-top : 2%;
+    text-align:center;
+    font-size : 35px;
+}
+
+.industries_banner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
+    /* grid-template-rows: auto; */
+    /* padding-left : 10%; */
+    margin-top : 3%;
+    padding : 0 8%;
+    /* border : 2px solid black */
+}
+
+.industries_card{
+    text-align: center;
+}
+.industries_card h4{
+    font-size : 1vw;
+}
+
+
+
+
+
+
+
+
+.getStarted2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 10fr));
+    grid-template-rows: auto;
+    padding :5% 10%;
+}
+
+.getStarted2Left{
+    /* border : 2px solid black; */
+    padding-left : 15%;
+    text-align: left;
+    padding-top : 15%;
+    font-size : 20px;
+}
+
+.getStarted2Left p{
+    font-weight: lighter;
+    font-size : 15px;
+}
+
+/* .getStarted2Right{
+    border : 2px solid black
+} */
+
+.getStarted2Button{
+    background-color: #ee3425;
+    color : white;
+    border : none;
+    width : 150px;
+    height : 40px;
+    border-radius: 10px;
+}
+.getStarted2Right img{
+    height : 320px;
+    width : 250px;
+}
+
+.getStarted2Right{
+    text-align: center;
+    /* padding-top : 10%; */
+}
+
+
+.getStarted2Img{
+  
+    animation: bounce 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+  
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 10px, 0);
+    }
+}
+
+
+
+.youtubeImgPlay{
+    background-image: url('https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fhomepage-video.png&w=3840&q=75');
+    height : 480px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.youtubeImgPlay img{
+    padding-left : 45%;
+    padding-top : 15%;
+}
+
+
+.youtubeDis{
+    background-color: #ee3425;
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+    padding : 1% 5%;
+}
+
+.youtubeLeft{
+    color : white;
+    padding-left : 5%;
+}
+
+.youtubeDRight button{
+    background-color:#fbdc00;
+    display: flex;
+    margin-top : 10%;
+    width : 10vw;
+    height : 3vw;
+    justify-content: center;
+    font-size: 1.2vw;
+    border-radius: 5px;;
+    border : none;
+    align-items: center;
+}
+
+
+
+
+
+/* ================== Blogs =============================*/
+
+
+.blogsTitle{
+    text-align: center;
+    margin-top : 5%;
+    font-size : 15px
+}
+
+.blogsAnchor{
+    text-decoration: none;
+    text-align: start;
+    width: 10vw;
+    height : 10vw;
+    border : 2px solid black;
+}
+
+.blogsBanner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding : 0% 8%;
+}
+
+.blogsCard{
+    margin : 10%;
+    /* border : 2px solid black; */
+    height : 28vw;
+    width : 25vw;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.blogsImg{
+    height : 10vw; 
+    width : 100%;
+    margin-top : -1.2vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blogsContent .blogsBottom{
+    padding-top : 5%;
+}
+
+.blogsContent {
+    padding-left: 5%;
+    padding-right: 5%;
+    color : black
+}
+.blogsContent  h4{
+    color : #ee3425;
+    font-size : 1vw;
+}
+.blogsContent  h3{
+    font-size : 1vw;
+}
+
+.blogsPara{
+    font-weight: lighter;
+    line-height: 1.5vw;
+    font-size : 1vw;
+}
+
+.blogsBottom{
+    display: flex;
+    justify-content: space-between;
+    padding : 5%;
+    font-size : 1vw;
+}
+
+.blogsReadMore{
+    color : #ee3425
+}
+
+.blogsDate{
+    color : grey
+}
+
+.blogsViewAll{
+    height : 40px;
+    width : 200px;
+    color : white;
+    background-color: #ee3425;
+    text-align: center;
+    margin-left : 45vw;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.blogsViewAll h4{
+    padding-top: 14px;
+    font-size: 1vw;
+}
+
+
+/*=============== News Letter =================*/
+
+
+.newLetterContainer{
+    background-color: #fbdc00;
+}
+
+.newsLetter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height : 300px;
+    padding-top : 5%;
+    
+} 
+.newsLetterLeft{
+    /* border : 2px solid black; */
+}
+
+.newsLetterRight{
+    /* border : 2px solid black; */
+    /* padding-left : 6%; */
+    padding-top : 4%;
+}
+
+.newLetterImg{
+    padding-left : 60%;
+}
+
+
+
+.newsLetterInput div{
+    /* border : 2px solid black; */
+}
+
+.newsLetterInput{
+    display: flex;
+    /* height : 44px */
+}
+
+.newLetterEmailInput{
+    height : 38px;
+    width : 15vw;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border : none;
+    padding-left : 5%
+}
+
+.newsLetterSubBtn{ 
+    display: flex;
+    width : 7vw;
+    align-items: center;
+    padding-left : 2%;
+    background-color: #ee3425;
+    color : white;
+    font-size: 1.2vw;
+    /* letter-spacing: 0.8px;; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border : none;
+    margin-left : 0;
+    height : 40px
+}
+
+
+
+
+
+
+
+/*=================== Links Container =======================================*/
+
+
+
+
+
+
+.linksContainer{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #fbdc00;
+    padding : 10px 4%;
+    column-gap: 15px;
+}
+
+.linksContainer h3{
+    font-size : 1.3vw;
+}
+
+.linksContainer h5{
+    font-size : 1vw;
+}
+
+.linksContainer a{
+    color : black;
+    
+    font-size : 1vw;
+    letter-spacing: -0.01vw;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: lighter;
+
+}
+
+.linksContainer a:hover{
+    text-decoration: underline;
+}
+
+
+.linksProductsExt{
+    margin-top : 2.5vw;
+}
+
+/* .hrLine{
+    display: none;
+}
+ */
+
+ .linksContainer h3 a{
+    text-decoration: underline;
+    font-size : 1.5vw;
+    font-weight: bold;
+ }
+
+.linksArrow{
+    display: none;
+}
+
+
+
+.city{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 22vw;
+    padding-left : 5%;
+    background-color: #ebbe00;
+    padding-top : 2%;
+}
+
+.city a{
+    display: block;
+    color : black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size : 1vw;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 2.2vw;
+}
+
+.cityMiddle{
+    margin-left : 30%
+}
+
+.cityRight{
+    margin-left : 50%
+}
+
+
+/*================== FOOTER ========================*/
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr;
+    background-color: #ebbe00;
+    padding : 1px 5%;
+    font-size : 1vw;
+    padding-top : 2%;
+}
+
+.footer  a{
+    cursor: pointer;
+    font-size : 0.8vw;
+}
+.socialIcons{
+    display: grid;
+    grid-template-columns: 0.5fr 8fr 0.5fr 0.5fr 0.5fr;
+    width : 15vw;
+    margin-left : 10vw;
+    /* border : 2px solid black; */
+    align-items: center;
+}
+
+.socialIcons img{
+    height : 1.4vw;
+    width : 1.4vw;
+    cursor: pointer;
+    /* border : 2px solid black; */
+}
+
+.socialIcons a , svg{
+    margin-left : 10px;
+    cursor: pointer;
+}
+.socialIcons a{
+    margin-top : 5px;
+    color : #ee3425;
+    /* border : 2px solid black; */
+}
+
+.socialIcons svg{
+    color : black;
+    /* margin-top : 10px; */
+    /* border : 2px solid black; */
+}
+
+.socialIcons .eng{
+    font-size : 1vw;
+    margin-bottom : 6px
+}
+
+
+
+.watsapp{   
+    background-color: #ee3425;
+    position: fixed;
+    top : 20%;
+    right : 0;
+    color : white;
+    height : 80px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    /* margin-left : 5%; */
+}
+.watsappImg svg{
+    height : 35px;
+    width : 35px;
+    margin-top : 10%;
+}
+
+.watsappImg a{
+    text-decoration: none;
+
+}
+
+.watsappText{
+    color : white
+}
+
+#watsappAnchorId{
+    z-index: 1000ss;
+}
+
+.watsappAnchor{
+
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================= */
+/* ======================================================= */
+/* ======================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 766px) {
+
+    :root{
+        margin-right : -4vw
+    }
+   
+    /*====================== NOTIFICATION ======================= */
+
+    .title , .notificationBookToday{
+        font-size : 2vw;
+    }
+
+
+
+    /*====================== NAVBAR ======================= */
+
+    .navLogo svg{
+        height : 5vw;
+        width : 30vw;
+    }
+   
+    .navList {
+        display: none;
+    }
+
+    .navMenu{
+        display: inline-block;
+        margin-left : -40%;
+    }
+
+    .navLogo{
+        justify-content: start;
+        padding-left : 10px;
+        padding-right: 80%;
+        margin-left : -20%;
+    }
+
+
+
+
+    /************************ GROW ********************/
+
+
+   
+
+    .growLeft h1{
+        font-size : 4vw;
+    }
+
+    .growLeft p{
+        font-size : 2vw;
+    }
+
+    .growBtn{
+        width : 15vw;
+        height : 5vw;
+        font-size : 2vw
+    }
+
+    .growWatsapp{
+        height : 3vw;
+        width : 3vw;
+        margin-left : -1vw;
+        
+    }
+    .growCodeHead{
+        width : 10vw;
+        display: grid;
+        grid-template-columns: 8fr 2fr;
+    }
+    .growCode{
+        height : 4vw;
+        width : 5vw;
+        margin-top : 8%;
+        border : 2px solid grey;
+        font-size : 2vw;
+        margin-left : -3vw;
+        border : none;
+    }
+    .growDownCaret{
+        height : 2vw;
+        width : 2vw;
+        margin-bottom: 20%;
+    }
+
+    .growMobile{
+        font-size: 2.5vw;
+        padding: 0;
+        text-align: left;
+        height : 5vw;
+        width : 22vw;
+        margin-left : -5vw
+    }
+
+
+    .growInputDiv{
+        width : 100%;
+        padding : 0px 1.5vw;
+    }
+    
+    .growRight{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding : 0;
+        margin : 0;
+    }
+    .growRight video{
+        height : 300px;
+        width  : 100%;
+    }
+
+    .growLeft{
+        margin-top : -100px;
+        width : 60vw;
+    }
+    
+    /*============================ CREAM ==================================*/
+
+  
+    .creamCount{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+        padding-top : 2vw;
+        row-gap: 0vw;
+        column-gap: 20vw;
+        line-height: 1.5vw;
+        padding-right : 9vw;
+        padding-bottom : 5vw
+    }
+  
+    .creamCount h1{
+        font-size : 3.5vw
+    }
+    .creamCount h3{
+        font-size : 2vw
+    }
+
+    .creamCount div{
+        text-align: center;
+    }
+
+    .creamSupply{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px;
+    }
+    .creamSupplyRight{
+        grid-row: 1/2;
+        grid-column : 1/2;
+        padding-left : 8vw;
+        padding-top : 22vw;
+    }
+
+    .creamSupplyLeft{
+        margin-top : 10vw;
+    }
+
+    .creamSupplyRight img{
+        height : 40vw;
+        width : 60vw;
+    }
+    .creamSupplyLeft h1{
+        font-size: 1.6rem;
+    }
+
+
+
+
+
+/*============================ PRODUCTS ==============================*/
+
+
+
+
+
+    .product{
+        padding : 10% 0%;
+        margin : 0;
+    }
+
+    .productTitle{
+        margin-left : 4vw;
+        text-align: left;
+        font-size : 2.4vw;
+    }
+
+    .productContainer{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        margin-top : 6vw;
+    }
+
+    
+
+    .productLeft{
+       padding :  0 0 0 5%;
+       margin : 0 20% 0 0 ;
+       font-size : 3.8vw;
+    }
+
+
+    .productRight{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 130px));
+        grid-template-rows : auto;
+        width : 100%;
+        margin-top : 1vw;
+        justify-content: center;
+   }
+   
+
+   .productCard{
+      margin-top : 2vw;
+      height : 110px;
+      width : 110px;
+      padding-top : 3vw;
+      align-items: center;
+   }
+
+   .productCard svg{
+        height : 30px;
+        width : 30px;
+   }
+   .productCard h4{
+        font-size : 2.5vw;
+        line-height: 2.5vw;;
+   }
+   .productCard h6{
+        font-size : 10px;
+        display: flex;
+        padding-left : 3vw;
+        align-items: center;
+        text-align: center;
+   }
+
+    .productCard h6 svg{
+        height : 14px;
+        width : 14px;
+    }
+    
+
+
+
+    /*======================= Marquee ===========================*/
+    
+    .marqTitle{
+        font-size : 3vw;
+    }
+
+    .marq marquee{
+        height : 22vw;
+        margin-bottom : 10%;
+    }
+
+   /*======================= GET STARTED ===========================*/
+
+
+
+    .getStarted{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 0.5fr;
+        padding-left : 2vw;
+        padding-bottom: 2vw;
+    }
+
+    .getStartedLeft{
+        margin-left : 1vw;
+        font-size : 2.2vw;
+    }
+
+    .getStartedBtn{
+        margin-top : 0;
+        margin-left : 2vw;
+        font-size : 2.5vw;
+        height : 8vw;
+    }
+
+
+    /*======================= Work ===========================*/
+
+    
+    .workBtnLeft, .workBtnRight{
+        display: block;
+        margin-left : 30%;
+        margin-top : 10px;
+    }
+    .workBanner.Desktop{
+        display : none;
+    }
+
+    .workBannerMobile{
+        display : block;
+    }
+
+    .workBtnLeft , .workBtnRight {
+        width : 40vw;
+    }
+
+    
+    /*============================= INDUSTRIES ============================================*/
+
+
+
+    .industries_card h4{
+        font-size : 2vw;
+    }
+
+
+    /*============================= GET STARTED - 2  ============================================*/
+
+
+    .getStarted2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto ;
+        padding: 0;
+        margin-top : 10%;
+    } 
+
+        
+    .getStarted2Right{
+        grid-row: 1/2;
+    } 
+
+
+
+    .getStarted2Left{
+        padding-left : 10%;
+        padding-top : 0;
+        font-size : 2vw;
+        padding-bottom : 5%;
+    }
+    
+    .getStarted2Right img{
+        height : 50vw;
+        width : 40vw;
+        padding-left: 0%;
+        padding-top : 0%;
+        margin-left : 0;
+        margin-top : 0;
+    }
+
+    .getStarted2Button{
+        height : 6vw;
+        width : 80vw;
+    }
+
+
+    .youtubeDis{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vw 5vw;;
+        height : 25vw;
+        font-size: 2vw;
+        text-align: left;
+        padding-left : 2%;
+    }
+
+    .youtubeLeft{
+        padding-left : 1%;
+    }
+
+    .youtubeDRight{
+        /* margin-left : 1%; */
+    }
+    .youtubeDRight button{
+        width : 20vw; 
+        font-size : 2vw;
+        height : 6vw;
+        margin-top : 6%;
+    }
+
+    .blogsBanner{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding : 0;
+        margin : 0;
+        margin-right : 20%;
+    }
+
+    .blogsCard{
+        width : 85vw;
+        height : 50vw;
+        font-size : 3vw;
+    }
+
+    .blogsImg{
+        height : 20vw;
+        margin-top : -10%;
+    }
+
+   .blogsContent h4 , .blogsContent h3{
+    font-size : 3vw
+   }
+
+   .blogsContent p{
+    font-size : 2.5vw;
+    line-height : 3vw;
+   }
+
+   .blogsReadMore, .blogsDate{
+     font-size : 2vw;
+   }
+
+   .blogsBottom{
+    padding-top : 0;
+    margin-top : -2%;
+   }
+
+   .blogsViewAll h4{
+        font-size: 2.8vw;
+   }
+
+   .blogsViewAll{
+        margin-left : 30vw;
+        width : 40vw;
+   }
+
+
+
+   .newsLetter{
+        height : 30vw;
+   }
+   .newsLetterLeft{
+     display: none;
+   }
+   .newsLetterRight{
+        padding-left : 50%;
+        padding : 0;
+        margin-left : 35%;
+        width : 60vw;
+        line-height: 4vw;
+        height : 30vw;
+   }
+
+   .newsLetterHeading h1{
+        font-size : 4vw;
+   }
+
+   .newsLetterRight p{
+        font-weight: lighter;
+        font-size : 2.5vw;
+   }
+
+
+   .newLetterEmailInput{
+        width : 40vw;
+        height : 5.5vw;
+        font-size : 2.5vw;
+   }
+
+   .newsLetterSubBtn{
+        width : 15vw;
+        height : 5.8vw;
+   }
+ 
+
+   .newsLetterSubBtn h4{
+        font-size: 2vw;;
+   }
+
+
+
+   /*============================== LINKS =============================================*/
+
+
+
+   .bucket a, h5{
+       display: none;
+   }
+  
+   .bucket h3 a{
+    display: block;
+    text-decoration: none;
+    font-size : 3.5vw;
+}
+
+
+
+   .linksContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        
+   }
+
+   .linksProductsExt{
+        margin-top : 0;
+   }
+
+   .hrLine{
+        display: inline;
+   }
+
+   .linksContainer h3{
+        font-size : 4vw;
+        margin-top : 0;
+        text-decoration: none;
+   }
+
+   .linksArrow{
+    display: inline-block;
+    float : right;
+   }
+
+
+   .city{
+    display: none;
+   }
+
+   /* .cityMiddle{
+    margin:0;
+   }
+
+   .cityRight {
+        margin:0;
+   } */
+
+
+
+
+   /*=================== FOOTER ================================*/
+
+
+
+   .footerMiddle{
+        display: none;
+   }
+
+   .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+   }
+
+   .footerRight{
+       grid-row: 1/2;
+       margin-left : -10%;
+   }
+
+   .socialIcons{
+        width : 40vw;
+        display: grid;
+        grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 2fr;
+        grid-template-rows: 8vw;
+        align-items: center;
+        margin-left : 4vw;
+
+   }
+
+   .socialIcons .eng{
+         font-size : 2.5vw;
+         height : 4vw;
+   }
+
+   .socialIcons img{
+        height : 3.4vw;
+        width : 3.4vw;
+        grid-column: 4/5;
+        margin-left : 1vw;
+
+   }
+
+   .footerLeft a{
+        margin-top : 15px;
+        font-size : 2.2vw;
+        margin-left : -4vw
+   }
+ 
+
+    .socialIcons .linkedIn{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        height : 3vw;
+        width : 3vw;
+    }
+    .socialIcons .facebook{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        height : 3vw;
+        width : 3vw;
+
+    }
+
+    .socialIcons .insta{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+   
+    .socialIcons .insta svg{
+        height : 4vw;
+        width : 4vw;
+        margin-left : -1vw;
+        margin-bottom : 0.5vw;
+    }
+
+
+
+    #watsappAnchorId{
+        display: none;
+    }
+
+}
